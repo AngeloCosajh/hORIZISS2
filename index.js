@@ -1,6 +1,6 @@
 const Discord = require('discord.js');
 const client = new Discord.Client({ partials: ['MESSAGE', 'CHANNEL', 'REACTION'] }); //<-- RICORDARSI QUE
-client.login("ODY5MjEwOTg4NzE5ODAwMzIw.YP650A.fOssW34l0BVMJsJtTLo5RZBiRao");
+client.login("");
 require('discord-buttons')(client)
 var { MessageButton, MessageActionRow } = require('discord-buttons')                                                                                                                                                                                                                           
 
